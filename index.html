@@ -10,6 +10,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="side-div">
+
+            <!-- <img src="./public/images/bgImage.avif" alt="" class="bgImage"> -->
+            <div class="side-header">
+                <img src="./public/images/odin-lined.png" alt="" class="odin-img"> 
+                <h1>ODIN</h1>
+            </div>
+
+            <div class="footer">
+                Photo by <u>Hailee West</u> on unsplash
+            </div>
+
+        </div>
+
+        <div class="form-div">
+            <div class="intro">
+                <p>This is not a real online service! you know you need something like this in your real life to help you realize your deepest dreams.<br>Signup now to get started</p>
+                <p>You know what to do.</p>
+            </div>
+
+            <form action="">
+                <div class="form-container">
+
+                    <p class="form-head">Let's Do This!</p>
+
+                    <div class="item-row">
+                        <ul class="items">
+                            <li>
+                                <label for="fName">FIRST NAME</label><br>
+                                <input type="text" id="fName" name="fName" required>
+                            </li>
+                            <li>
+                                <label for="lName">LAST NAME</label><br>
+                                <input type="text" id="lName" name="lName" required>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="item-row">
+                        <ul class="items">
+                            <li>
+                                <label for="mail">EMAIL</label><br>
+                                <input type="email" id="mail" name="mail" required>
+                            </li>
+                            <li>
+                                <label for="phone">PHONE NUMBER</label><br>
+                                <input type="tel" id="phone" name="phone">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="item-row">
+                        <ul class="items">
+                            <li>
+                                <label for="pwd">PASSWORD</label><br>
+                                <input type="password" id="pwd" name="pwd" required>
+                            </li>
+                            <li>
+                                <label for="coPwd">CONFIRM PASSWORD</label><br>
+                                <input type="password" id="coPwd" name="coPwd" required>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="form-footer">
+                    <button type="submit"> Create Account</button>
+                    <span class="login-span">Already have an account?<a href="" class="login"> Log in!</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
